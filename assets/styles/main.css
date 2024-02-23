@@ -1,8 +1,38 @@
 
+
+@font-face {
+    font-family: 'titillium1';
+    
+    src: 
+    url('../fonts/Titillium-Bold.otf') format('otf');
+
+    font-weight: normal;
+    font-style: normal;
+}
+/* @font-face {
+    font-family: 'titillium2';
+    
+    src: 
+    url('../fonts/Titillium-Semibold.otf') format('otf');
+
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'titillium3';
+    
+    src: 
+    url('../fonts/Titillium-Thin.otf') format('otf');
+
+    font-weight: normal;
+    font-style: normal;
+} */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    font-family: "titillium1";
+    
 }
 header {
     background-color: #c0fff1;
@@ -12,8 +42,8 @@ header {
 }
 main {
     text-align: center;
-    max-width: 800px; /* Puedes ajustar el ancho máximo según tus necesidades */
-    margin: 0 auto; /* Esto centra horizontalmente el contenido */
+    max-width: 800px;
+    margin: 0 auto;
     padding: 0 20px;
 }
 nav {
@@ -46,5 +76,16 @@ footer {
     bottom: 0;
     width: 100%;
 }
+li{
+list-style: none;    
+}
 
-
+/* h1{
+    font-family: "titillium1";
+} 
+h2{
+    font-family: "titillium2";
+}
+a {
+    font-family: "titillium3";
+} */
