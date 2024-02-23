@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'titillium1';
+    
+    src: 
+    url('../fonts/Titillium-Bold.otf') format('otf');
+
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'titillium2';
+    
+    src: 
+    url('../fonts/Titillium-Semibold.otf') format('otf');
+
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'titillium3';
+    
+    src: 
+    url('../fonts/Titillium-Thin.otf') format('otf');
+
+    font-weight: normal;
+    font-style: normal;
+} */
